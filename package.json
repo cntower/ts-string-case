@@ -1,0 +1,26 @@
+{
+  "name": "ts-string-case",
+  "version": "1.0.2",
+  "description": "String utility",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cntower/ts-string-case.git"
+  },
+  "author": "Stanislav Baturin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cntower/ts-string-case/issues"
+  },
+  "homepage": "https://github.com/cntower/ts-string-case#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "typescript": "^3.2.2"
+  }
+}
